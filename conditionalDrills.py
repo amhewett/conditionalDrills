@@ -14,7 +14,7 @@ if grade > 65:
 grade = 45 
 if grade < 65:
     print ("student is failing")  
-elif grade > 65:
+if else grade > 65:
     print ("student is passing")  
 '''
 #3)Create a variable called age. Make and if, else statement that checks if the age entered is old enough to vote. Remember the voting age is 18
@@ -22,7 +22,7 @@ elif grade > 65:
 age = 7
 if age < 18:
     print ("cannot vote")
-elif age == 18:
+if else age == 18:
     print ("can vote")
 '''
 #4)Create a variable called weight. Make an if statement that checks the unit of the weight. If the weight is in kilograms, convert it to pounds 
@@ -46,17 +46,17 @@ seat4 = 1
 listSeats = [seat1,seat2,seat3,seat4]
 if seat1 == 1:
     print ("seat 1 is closed")
-elif seat1 == 0:
+if else seat1 == 0:
     print ("seat 1 is open")
 if seat2 == 1:
     print ("seat 2 is closed")
-elif seat2 == 0:
+if else seat2 == 0:
     print ("seat 2 is opened")
 if seat3 == 1:
     print ("seat 3 is closed")
-elif seat3 == 0:
+if else seat3 == 0:
     print ("seat 3 is opened")
 if seat4 == 1:
     print ("seat 4 is closed")
-elif seat4 == 0:
+if else seat4 == 0:
     print ("seat 4 is opened")
